@@ -4,10 +4,10 @@ total_records = int(input("กรุณาใส่จำนวนเรคค�
 batch_size = int(input("กรุณาใส่ขนาดของแต่ละ Batch (จำนวนเรคคอร์ดต่อ Batch): "))
 
 # Calculate number of full batches
-full_batches = total_records // batch_size
+full_batches = total_records // batch_size # ใส่ได้เต็มกล่องกี่รอบ
 print(full_batches)
 # Calculate leftover records that don't fit into a full batch
-leftover_records = total_records % batch_size
+leftover_records = total_records % batch_size # เหลือเรคคอร์ดที่ไม่พอใส่กล่องเท่าไหร่
 print(leftover_records)
 
 # Print results
