@@ -16,3 +16,4 @@ all_customers.sort()
 # นับจำนวนลูกค้าทั้งหมด (len) และแสดงผล
 print("รายชื่อลูกค้าทั้งหมด:", all_customers)
 print("จำนวนลูกค้าทั้งหมด:", len(all_customers))
+
