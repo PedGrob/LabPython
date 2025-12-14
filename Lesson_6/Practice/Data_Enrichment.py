@@ -15,5 +15,5 @@ for employee in employees:
     print(f"Updated Employee: {employee}")
 print("\nFinal Employee Data:")
 print(employees)
-# ผลลัพธ์ที่คาดหวัง:
+
 

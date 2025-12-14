@@ -10,11 +10,11 @@ print(f"Original Stock: {inventory}")
 #   ถ้ามี key ใน inventory -> บวกเพิ่ม
 #   ถ้าไม่มี -> สร้างใหม่
 
-for item, qty in new_lot.items():
-    if item in inventory:
-        inventory[item] = inventory[item] + qty
-    else:
-        inventory[item] = qty
+for item, qty in new_lot.items(): # Loop อ่าน new_lot
+    if item in inventory: # ถ้ามี key ใน inventory
+        inventory[item] = inventory[item] + qty # บวกเพิ่ม
+    else: # ถ้าไม่มี
+        inventory[item] = qty # สร้างใหม่
 
 print(f"Current Stock: {inventory}")
 
